@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(68, 68, 111);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        font-size: 1.04rem;
+        color: rgb(172, 172, 242);
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        /* background-color: rgb(119, 21, 216); */
+        font-size: 2.2rem;
+      }
+
+      .leftSection .btn {
+        background: #1e2167;
+        border: 2px solid rgb(255, 255, 255);
+        font-size: 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        padding: 12px;
+        color: white;
+      }
+
+      .rightSection img {
+        /* background-color: rgb(119, 21, 216); */
+        width: 80%;
+        margin: 50px 0;
+      }
+
+      .Purpal {
+        color: rgb(169, 131, 207);
+      }
+
+      #element {
+        color: rgb(172, 172, 248);
+      }
+      .textgray {
+        color: rgb(172, 172, 242);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.6rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+
+      .img-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      .footer {
+        display: flex;
+        padding: 123px 122px;
+        justify-content: space-evenly;
+      }
+
+      footer {
+        background-color: #0e0e1a;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer > div {
+        width: 123px;
+      }
+
+      footer .text-center {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shreyas's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="Purpal">Shreyas </span>
+          <div>and I am Passionate</div>
+
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection"><img src="PngItem_1127587.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="textgray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="img-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              numquam temporibus nam aspernatur! Tenetur ab quidem eligendi
+              fugiat minus suscipit similique! Consequuntur voluptatem placeat
+              perferendis corporis expedita, vero velit odio?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="node.png" alt="" />
+            <div class="vertical-title">Node.js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              numquam temporibus nam aspernatur! Tenetur ab quidem eligendi
+              fugiat minus suscipit similique! Consequuntur voluptatem placeat
+              perferendis corporis expedita, vero velit odio?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="react.png" alt="" />
+            <div class="vertical-title">React Developer (2014-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              numquam temporibus nam aspernatur! Tenetur ab quidem eligendi
+              fugiat minus suscipit similique! Consequuntur voluptatem placeat
+              perferendis corporis expedita, vero velit odio?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="node.png" alt="" />
+            <div class="vertical-title">Express Developer (2018-2020)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              numquam temporibus nam aspernatur! Tenetur ab quidem eligendi
+              fugiat minus suscipit similique! Consequuntur voluptatem placeat
+              perferendis corporis expedita, vero velit odio?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="css.png" alt="" />
+            <div class="vertical-title">CSS Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              numquam temporibus nam aspernatur! Tenetur ab quidem eligendi
+              fugiat minus suscipit similique! Consequuntur voluptatem placeat
+              perferendis corporis expedita, vero velit odio?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="react.png" alt="" />
+            <div class="vertical-title">Next.js Developer (2022-2024)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              numquam temporibus nam aspernatur! Tenetur ab quidem eligendi
+              fugiat minus suscipit similique! Consequuntur voluptatem placeat
+              perferendis corporis expedita, vero velit odio?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="Footer-first">
+          <h3>Shreyas Developer Porfolio</h3>
+        </div>
+        <div class="Footer-Second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="Footer-Third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="Footer-Four">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center">
+        Copyright &#169; shreyasportfolio.com | All Right reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer.",
+          "Graphic Designer.",
+          "Web design.",
+          "Data Analytics. ",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
